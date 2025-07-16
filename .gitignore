@@ -1,0 +1,3 @@
+/backend/.venv
+/backend/app/__pycache__
+/backend/app/data/mall_customers_cluster_*.csv
