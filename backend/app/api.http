@@ -3,6 +3,15 @@ POST http://127.0.0.1:8000/predict
 Content-Type: application/json
 
 {
-  "text": "call 0123456789 to claim 500$ prize"
+  "text": "Hello, this is a test message."
+}
+
+
+###
+POST http://127.0.0.1:8000/predict
+Content-Type: application/json
+
+{
+  "text": "call 0123456789 to claim 2000$ prize"
 }
 

@@ -1,4 +1,25 @@
-# 📊 Machine Learning Demo
+# Machine Learning Demo
+
+## 📁 Project Structure
+
+```
+ai-machine-learning/
+│
+├── backend/
+│   ├── app/
+│   │   ├── supervised_learning.py
+│   │   ├── unsupervised_learning.py
+│   │   ├── reinforcement_learning.py
+│   │   ├── main.py
+│   │   └── data/
+│   │       └── mall_customers.csv
+│   │       └── SpamCollectionSMS.txt
+│   ├── venv/     # Virtual environment (not tracked by git)
+│   └── requirements.txt
+│
+├── README.md
+└── .gitignore
+```
 
 ## 🛠️ Environment Setup
 
@@ -9,7 +30,7 @@
 
 2. Clone the repository:
    ```
-   git clone <repository-url>
+   git clone https://github.com/taivn-dev/ai-machine-learning.git
    cd ai-machine-learning
    ```
 

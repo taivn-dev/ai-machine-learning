@@ -45,11 +45,6 @@ plt.xlabel('Thu nhập')
 plt.ylabel('Điểm chi tiêu')
 plt.show()
 
-
-# # Xem thống kê tổng quát theo từng cụm
-# grouped = data.groupby('Cluster')[['Annual Income (k$)', 'Spending Score (1-100)', 'Age']].mean()
-# print(grouped)
-
 # Hiển thị số lượng khách hàng theo từng cụm
 #print(data['Cluster'].value_counts())
 

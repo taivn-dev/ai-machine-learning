@@ -6,7 +6,7 @@ import string
 
 # Load mô hình và vectorizer đã huấn luyện
 model = joblib.load("spam_classifier_model.pkl")
-vectorizer = joblib.load("tfidf_vectorizer.pkl")
+vectorizer = joblib.load("spam_tfidf_vectorizer.pkl")
 
 # Khởi tạo FastAPI
 app = FastAPI()
